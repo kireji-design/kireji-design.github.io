@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Noe-Display;
+    src: url('Noe-Display-Bold.eot');
+    src: url(Noe-Display-Bold.woff);
+    font-weight: bold;
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background:
+        linear-gradient(45deg, hsla(16, 95%, 69%, 1) 0%, hsla(16, 95%, 69%, 0) 50%),
+        linear-gradient(135deg, hsla(75, 48%, 75%, 1) 40%, hsla(75, 48%, 75%, 0) 80%),
+        linear-gradient(225deg, hsla(258, 19%, 59%, 1) 40%, hsla(258, 19%, 59%, 0) 90%),
+        linear-gradient(315deg, hsla(16, 95%, 69%, 1) 100%, hsla(16, 95%, 69%, 0) 50%);
+    background-size: 170% 170%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.logo {
+    width: 40px;
+    margin: 0 auto;
+    padding-bottom: 7rem;
+}
+
+.bottom {
+    font-size: 1.5em;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    font-family: 'Noe-Display';
+}
+
+li span {
+    display: block;
+    font-size: 6rem;
+    margin-bottom: -10px;
+    width: 160px;
+}
+
+.container {
+    height: 100vh;
+    color: #fff;
+    margin: 0 auto;
+    padding: 3rem 0.5rem;
+    text-align: center;
+    font-family: 'Noe-Display';
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    li {
+        font-size: 1rem;
+    }
+
+    li span {
+        font-size: 4rem;
+        width: 140px;
+    }
+
+    .container {
+        width: 60%;
+        padding: 3rem 0rem;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .container {
+        width: 65%;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .container {
+        width: 75%;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .container {
+        width: 85%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    li {
+        font-size: 0.8rem;
+    }
+
+    li span {
+        font-size: 2.5rem;
+        width: 100px;
+    }
+}
