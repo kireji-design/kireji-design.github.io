@@ -72,6 +72,9 @@ li span {
     padding: 3rem 0.5rem;
     text-align: center;
     font-family: 'Noe-Display';
+    opacity: 0;
+    transition-duration: 1s;
+    transition-delay: 1s;
 }
 
 @media all and (max-width: 800px) {
