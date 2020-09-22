@@ -35,7 +35,8 @@ body {
 }
 
 .logo {
-    width: 40px;
+    font-size: 3em;
+    font-family: 'Noe-Display';
     margin: 0 auto;
     padding-bottom: 10rem;
 }
@@ -143,10 +144,11 @@ li span {
 @media (min-width: 1600px) {
 
     .logo {
-        width: 60px;
-        margin: 0 auto;
-        padding-bottom: 15rem;
-    }
+    font-size: 4em;
+    font-family: 'Noe-Display';
+    margin: 0 auto;
+    padding-bottom: 15rem;
+}
 
     h1 {
         font-size: 8rem;
