@@ -1,3 +1,6 @@
-      $(document).ready(function(){
-        $('body').fadeIn();
-      })
+        $(document).ready(function() {
+            $(".sito").css("opacity", "1");
+        })
+
+
+

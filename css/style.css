@@ -1,0 +1,133 @@
+html,
+body {
+    overflow: hidden;
+}
+
+.karla-small {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.karla-medium {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.noe-big {
+    font-size: 4rem;
+    line-height: 1;
+    font-family: 'Noe-Display';
+    color: #fff;
+}
+
+.frase-iniziale {
+    padding: 8rem 10rem 3rem 10rem;
+}
+
+.logo {
+    font-size: 3rem;
+    font-family: 'Noe-Display';
+    margin: 0 auto;
+    color: #fff;
+}
+
+.logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.sito {
+    height: 100vh;
+    margin: 0 auto;
+    padding: 3rem 0.5rem;
+    text-align: center;
+    opacity: 0;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+
+.nav {
+    margin: 1.5rem 2rem;
+}
+
+
+.nav-right {
+    display: inline-flex;
+}
+
+
+.navigazione {
+    color: #fff;
+    transition-duration: 0.5s;
+    border-bottom: 1px solid transparent;
+}
+
+.navigazione:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    transform: translate(0, 3px);
+}
+
+.footer {
+    padding: 8px 16px;
+}
+
+.copy {
+    position: absolute;
+    bottom: 0;
+}
+
+.instagram {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.bottone {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    border: 1px solid #FFF;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.bottone:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translate(0, 3px);
+}
+
+.couponcode:hover .coupontooltip {
+    display: block;
+    cursor: pointer;
+}
+
+.coupontooltip {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+        font-size: 0.7rem;
+ letter-spacing: 1px;
+}
+
+.shop{
+    cursor: default;
+    color: #fff;
+}
+
+.shop:hover{
+    color: #fff;
+}
+
+.text__TextWrapper-sc-lt2ribu-0.egtDRO{
+    display: none!important;
+    visibility: hidden!important;
+    color: #fff!important;
+}
