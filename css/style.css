@@ -93,6 +93,14 @@ body {
 }
 
 
+.shop-sub {
+    opacity: 0;
+}
+
+.copy {
+    display: inline-flex;
+}
+
 .sito {
     height: 100vh;
     margin: 0 auto;
@@ -134,7 +142,7 @@ body {
     right: 0;
     bottom: 0;
     cursor: pointer;
-    
+
 }
 
 .bottone {
@@ -175,6 +183,9 @@ body {
 
 
 @media (max-width: 800px) {
+    .sito {
+        padding: 0;
+    }
 
     .noe-big {
         font-size: 2.5rem;
@@ -189,15 +200,39 @@ body {
     }
 
 
-    
-    .copy{
-        text-align: left;
-        padding: 0 10% 0 0;
-        
-    }
-    
-    .karla-small {
-    font-size: 0.7rem;
-}
 
+    .copy {
+        text-align: left;
+        display: block;
+    }
+
+    .karla-small {
+        font-size: 0.7rem;
+    }
+
+    .shop {
+        text-decoration: line-through;
+    }
+
+    .shop:hover {
+        text-decoration: line-through;
+    }
+
+    .couponcode:hover .coupontooltip {
+        visibility: hidden;
+        display: none;
+    }
+
+    .coupontooltip {
+        visibility: hidden;
+        display: none;
+    }
+
+    .shop-sub {
+        opacity: 1;
+        text-align: left;
+        margin: 24px 32px;
+        left: 0;
+        transform: translate(0, 28px);
+    }
 }
