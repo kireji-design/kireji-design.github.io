@@ -1,3 +1,55 @@
+/*LOADING*/
+@keyframes loading {
+    0% {
+        max-height: 0;
+    }
+}
+
+#loading {
+    width: 100%;
+    height: 100vh;
+    opacity: 1;
+    background-color: #F5F4F4;
+    background-image: url("bg_white.png");
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.loading-kj {
+    font-size: 3rem;
+    font-family: 'Noe-Display';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -70px;
+    margin-left: -18px;
+    color: transparent;
+    background: linear-gradient(to bottom, #d0c8e3, #ddebb1, #fbc392);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 65px;
+    z-index: 10000;
+    cursor: default;
+    overflow: hidden;
+}
+
+.loading-kj:before {
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    max-height: 80px;
+    -webkit-text-stroke: 1px #F5F4F4;
+    white-space: nowrap;
+    color: #F5F4F4;
+    -webkit-animation: loading 1s linear reverse infinite;
+    z-index: 10000;
+    cursor: default;
+    overflow: hidden;
+}
+
+
 html,
 body {
     overflow: hidden;
@@ -25,7 +77,7 @@ body {
 }
 
 .frase-iniziale {
-    padding: 8rem 10rem 3rem 10rem;
+    padding: 10% 10% 5% 10%;
 }
 
 .logo {
@@ -46,7 +98,6 @@ body {
     margin: 0 auto;
     padding: 3rem 0.5rem;
     text-align: center;
-    opacity: 0;
     transition-duration: 1s;
     transition-delay: 1s;
 }
@@ -77,16 +128,13 @@ body {
     padding: 8px 16px;
 }
 
-.copy {
-    position: absolute;
-    bottom: 0;
-}
 
 .instagram {
     position: absolute;
     right: 0;
     bottom: 0;
     cursor: pointer;
+    
 }
 
 .bottone {
@@ -113,21 +161,43 @@ body {
     display: none;
     position: absolute;
     z-index: 1000;
-        font-size: 0.7rem;
- letter-spacing: 1px;
+    font-size: 0.7rem;
 }
 
-.shop{
+.shop {
     cursor: default;
     color: #fff;
 }
 
-.shop:hover{
+.shop:hover {
     color: #fff;
 }
 
-.text__TextWrapper-sc-lt2ribu-0.egtDRO{
-    display: none!important;
-    visibility: hidden!important;
-    color: #fff!important;
+
+@media (max-width: 800px) {
+
+    .noe-big {
+        font-size: 2.5rem;
+        line-height: 1;
+        font-family: 'Noe-Display';
+        color: #fff;
+    }
+
+
+    .frase-iniziale {
+        padding: 30% 5% 10% 5%;
+    }
+
+
+    
+    .copy{
+        text-align: left;
+        padding: 0 10% 0 0;
+        
+    }
+    
+    .karla-small {
+    font-size: 0.7rem;
+}
+
 }

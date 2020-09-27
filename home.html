@@ -68,7 +68,7 @@
         <!-- Navbar -->
         <ul class="nav justify-content-between fixed-top">
             <li class="couponcode karla-medium"><a class="nav-link shop" href="#">shop</a>
-                <span class="coupontooltip">ARRIVA PRESTO, PRESTISSIMO! :)</span>
+                <span class="coupontooltip">arriva presto, prestissimo! :)</span>
             </li>
             <li class="nav-item">
                 <a class="logo" href="#">kj</a>
@@ -108,10 +108,10 @@
 
         <!-- Footer  -->
         <ul class="nav justify-content-between fixed-bottom">
-            <li class="footer copy nav-item karla-small">
-                Progettato con profonda <b>immaginazione</b>, <b>empatia</b> ed immancabile <b>passione</b>. © 2020.
+            <li class="footer nav-item nav-right karla-small">
+                <div class="copy">Progettato con profonda <b>immaginazione</b>, <b>empatia</b> ed immancabile <b>passione</b>. © 2020.</div>
             </li>
-            <li class="footer nav-item instagram"><a href="https://www.instagram.com/kireji.design/" target="_blank">
+            <li class="footer nav-item nav-left instagram"><a href="https://www.instagram.com/kireji.design/" target="_blank">
                     <img src="./assets/logo-instagram.svg" width="30px" height="auto"></a>
             </li>
         </ul>
@@ -119,6 +119,22 @@
 
 
     </div>
+    
+        <script>
+        $('html').css('overflow', 'hidden');
+        $('body').append('<div id="loading"><div class="loading-kj" data-text="kj">kj</div></div>');
+        $(window).on('load', function() {
+            setTimeout(removeLoader, 1000);
+        });
+
+        function removeLoader() {
+            $('html').css('overflow', 'auto');
+            $("#loading").fadeOut(500, function() {
+                $("#loading").remove();
+            });
+        }
+
+    </script>
 
     <!-- Optional JavaScript -->
     <script type="text/javascript" src="./js/main.js"></script>
