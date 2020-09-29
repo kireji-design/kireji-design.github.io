@@ -24,7 +24,7 @@
     top: 50%;
     left: 50%;
     margin-top: -70px;
-    margin-left: -18px;
+    margin-left: -30px;
     color: transparent;
     background: linear-gradient(to bottom, #d0c8e3, #ddebb1, #fbc392);
     -webkit-background-clip: text;
@@ -60,6 +60,7 @@ body {
     font-weight: 400;
     font-size: 0.9rem;
     color: #fff;
+     line-height: 1.2;
 }
 
 .karla-medium {
@@ -67,6 +68,7 @@ body {
     font-weight: 400;
     font-size: 1.2rem;
     color: #fff;
+    line-height: 1.2;
 }
 
 .noe-big {
@@ -79,6 +81,12 @@ body {
 .frase-iniziale {
     padding: 10% 10% 5% 10%;
 }
+
+.about {
+    padding: 5% 10% 5% 10%;
+    text-align: left;
+}
+
 
 .logo {
     font-size: 3rem;
@@ -200,6 +208,7 @@ body {
     }
 
 
+    
 
     .copy {
         text-align: left;
