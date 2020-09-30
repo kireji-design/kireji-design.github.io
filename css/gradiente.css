@@ -6,6 +6,7 @@ body {
         linear-gradient(315deg, hsla(16, 95%, 69%, 1) 100%, hsla(16, 95%, 69%, 1) 50%);
     background-size: 170% 170%;
     animation: gradient 10s ease infinite;
+    z-index: 0;
 
 
 }
@@ -13,11 +14,26 @@ body {
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
+        pointer-events: none;
+                        -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
     }
     50% {
         background-position: 100% 50%;
+         pointer-events: none;
+                        -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
     }
     100% {
         background-position: 0% 50%;
+         pointer-events: none;
+                        -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
     }
 }
