@@ -6,6 +6,9 @@ body {
         linear-gradient(315deg, hsla(16, 95%, 69%, 1) 100%, hsla(16, 95%, 69%, 1) 50%);
     background-size: 170% 170%;
     animation: gradient 10s ease infinite;
+    overflow: hidden;
+    height: 100vh;
+
 }
 
 @keyframes gradient {
