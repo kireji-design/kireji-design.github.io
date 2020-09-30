@@ -130,6 +130,7 @@ a:hover {
 .nav {
     margin: 1rem 2rem 1.5rem 2rem;
     z-index: 2000;
+    
 }
 
 
@@ -232,13 +233,21 @@ a:hover {
     }
 
     .karla-small {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 
     .karla-medium {
         font-family: 'Karla', sans-serif;
         font-weight: 400;
-        font-size: 0.9rem;
+        font-size: 1.1rem;
+        color: #fff;
+        line-height: 1.2;
+    }
+    
+        .poesia {
+        font-family: 'Karla', sans-serif;
+        font-weight: 400;
+        font-size: 1.1rem;
         color: #fff;
         line-height: 1.2;
     }
@@ -266,7 +275,11 @@ a:hover {
         text-align: left;
         margin: 3rem 1.5rem;
         left: 0;
-        transform: translate(0, 38px);
+        transform: translate(0, 36px);
+    }
+    
+        .shop-sub-about{
+        transform: translate(0, -46px);
     }
 
     .frase-iniziale {
@@ -300,10 +313,21 @@ a:hover {
     }
 
     .about {
-        padding: 120px 40px 30px 40px;
+        padding: 0 40px 0 40px;
+        margin-top: -40px;
         text-align: left;
+        position: relative;
 
-
+    }
+    
+    .footer-about{
+        position: relative;
+        padding-top: 50px;
+    }
+    
+        .nav-about{
+        position: relative;
+            top: 0;
     }
 
 }
@@ -329,6 +353,7 @@ a:hover {
     .shop-sub {
         margin: 1.5rem 1.5rem;
     }
+
 
 
 
