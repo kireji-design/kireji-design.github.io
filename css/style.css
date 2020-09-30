@@ -120,6 +120,7 @@ body {
     text-align: center;
     transition-duration: 1s;
     transition-delay: 1s;
+    overflow: hidden;
 }
 
 .nav {
@@ -257,7 +258,7 @@ body {
     }
 
     .frase-iniziale {
-        padding: 80px 40px 30px 40px;
+        padding: 30px 40px 30px 40px;
         text-align: left;
 
 
