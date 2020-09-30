@@ -18,7 +18,7 @@
 }
 
 .loading-kj {
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: 'Noe-Display';
     position: fixed;
     top: 50%;
@@ -60,7 +60,7 @@ body {
     font-weight: 400;
     font-size: 0.9rem;
     color: #fff;
-     line-height: 1.2;
+    line-height: 1.2;
 }
 
 .karla-medium {
@@ -72,14 +72,18 @@ body {
 }
 
 .noe-big {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1;
     font-family: 'Noe-Display';
     color: #fff;
 }
 
 .frase-iniziale {
-    padding: 10% 10% 5% 10%;
+    padding: 8% 15% 4% 15%;
+}
+
+.frase-karla {
+    padding:  0 15% ;
 }
 
 .about {
@@ -89,7 +93,7 @@ body {
 
 
 .logo {
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: 'Noe-Display';
     margin: 0 auto;
     color: #fff;
@@ -119,7 +123,7 @@ body {
 }
 
 .nav {
-    margin: 1.5rem 2rem;
+    margin: 1rem 2rem 1.5rem 2rem;
 }
 
 
@@ -127,6 +131,9 @@ body {
     display: inline-flex;
 }
 
+.nav-link{
+    margin-top: 20px;
+}
 
 .navigazione {
     color: #fff;
@@ -156,7 +163,7 @@ body {
 .bottone {
     text-align: center;
     display: inline-block;
-    padding: 10px 40px 10px 40px;
+    padding: 9px 35px 10px 35px;
     border: 1px solid #FFF;
     cursor: pointer;
     transition-duration: 0.5s;
@@ -165,8 +172,9 @@ body {
 .bottone:hover {
     color: #fff;
     background-color: rgba(255, 255, 255, 0.3);
-    transform: translate(0, 3px);
+    transform: translate(5px, 0);
 }
+
 
 .couponcode:hover .coupontooltip {
     display: block;
@@ -193,6 +201,8 @@ body {
 @media (max-width: 800px) {
     .sito {
         padding: 0;
+        overflow: hidden;
+        text-align: left;
     }
 
     .noe-big {
@@ -203,13 +213,6 @@ body {
     }
 
 
-    .frase-iniziale {
-        padding: 25% 5% 10% 5%;
-    }
-
-
-    
-
     .copy {
         text-align: left;
         display: block;
@@ -218,6 +221,14 @@ body {
     .karla-small {
         font-size: 0.7rem;
     }
+    
+    .karla-medium {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #fff;
+    line-height: 1.2;
+}
 
     .shop {
         text-decoration: line-through;
@@ -240,8 +251,58 @@ body {
     .shop-sub {
         opacity: 1;
         text-align: left;
-        margin: 24px 32px;
+        margin: 1.8rem 1.5rem;
         left: 0;
         transform: translate(0, 28px);
     }
+
+    .frase-iniziale {
+        padding: 80px 40px 30px 40px;
+        text-align: left;
+
+
+    }
+
+    .frase-noe {
+        display: flex;
+    }
+
+    .nav {
+        margin: 1rem 1.5rem;
+    }
+
+.frase-karla {
+    padding:  0 0 ;
 }
+
+    .bottone {
+        margin: 0 40px;
+
+    }
+
+}
+
+@media (max-width: 360px) {
+
+
+    .noe-big {
+        font-size: 2rem;
+        line-height: 1;
+        font-family: 'Noe-Display';
+        color: #fff;
+    }
+
+    .karla-small {
+        font-size: 0.5rem;
+    }
+    
+        .karla-medium {
+        font-size: 0.8rem;
+    }
+
+        .shop-sub {
+        margin: 1.5rem 1.5rem;
+    }
+
+}
+
