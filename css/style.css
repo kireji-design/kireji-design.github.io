@@ -366,6 +366,9 @@ a:hover {
     .frase-iniziale {
     padding: 15% 18% 4% 18%;
 }
+    .about {
+    padding: 10% 24% 4% 24%;
+}
 
 }
 
@@ -375,7 +378,9 @@ a:hover {
     .frase-iniziale {
     padding: 15% 20% 4% 20%;
 }
-
+    .about {
+    padding: 10% 26% 4% 26%;
+}
 }
 
 @media (min-width: 1500px) {
@@ -383,7 +388,9 @@ a:hover {
     .frase-iniziale {
     padding: 15% 22% 4% 22%;
 }
-
+    .about {
+    padding: 10% 28% 4% 28%;
+}
 }
 
 @media (min-width: 1600px) {
@@ -391,7 +398,9 @@ a:hover {
     .frase-iniziale {
     padding: 15% 24% 4% 24%;
 }
-
+    .about {
+    padding: 10% 30% 4% 30%;
+}
 }
 
 @media (min-width: 1700px) {
@@ -399,5 +408,7 @@ a:hover {
     .frase-iniziale {
     padding: 15% 26% 4% 26%;
 }
-
+    .about {
+    padding: 10% 32% 4% 32%;
+}
 }
