@@ -217,7 +217,7 @@ a:hover {
     .sito {
         padding: 0;
         text-align: left;
-        height: auto;
+        height: 100%;
     }
 
     .noe-big {
