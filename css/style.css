@@ -81,6 +81,7 @@ body {
 .frase-iniziale {
     padding: 8% 15% 4% 15%;
     overflow: hidden;
+    pointer-events: none;
 }
 
 .frase-karla {
