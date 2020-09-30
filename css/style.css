@@ -83,11 +83,11 @@ a:hover {
 
 .frase-iniziale {
     padding: 15% 15% 4% 15%;
-    pointer-events: none;
+    z-index: 0;
 }
 
 .about {
-    padding: 10% 15% 4% 15%;
+    padding: 10% 20% 4% 20%;
     text-align: left;
 }
 
@@ -129,7 +129,7 @@ a:hover {
 
 .nav {
     margin: 1rem 2rem 1.5rem 2rem;
-    z-index: 500;
+    z-index: 2000;
 }
 
 
@@ -232,13 +232,13 @@ a:hover {
     }
 
     .karla-small {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     .karla-medium {
         font-family: 'Karla', sans-serif;
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 0.9rem;
         color: #fff;
         line-height: 1.2;
     }
@@ -282,6 +282,7 @@ a:hover {
 
     .nav {
         margin: 1rem 1.5rem;
+        z-index: 500;
     }
 
     .frase-karla {
