@@ -1,3 +1,7 @@
+html{
+        background-color: hsla(75, 48%, 75%, 1);
+}
+
 body {
     background:
         linear-gradient(45deg, hsla(16, 95%, 69%, 1) 0%, hsla(16, 95%, 69%, 0) 50%),
@@ -6,7 +10,6 @@ body {
         linear-gradient(315deg, hsla(16, 95%, 69%, 1) 100%, hsla(16, 95%, 69%, 1) 50%);
     background-size: 170% 170%;
     animation: gradient 10s ease infinite;
-    background-color: hsla(75, 48%, 75%, 1);
 }
 
 @keyframes gradient {

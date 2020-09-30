@@ -54,6 +54,10 @@ body {
     overflow: hidden;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .karla-small {
     font-family: 'Karla', sans-serif;
     font-weight: 400;
@@ -65,7 +69,7 @@ body {
 .karla-medium {
     font-family: 'Karla', sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #fff;
     line-height: 1.2;
 }
@@ -82,18 +86,19 @@ body {
     pointer-events: none;
 }
 
-.frase-karla {
-    padding:  0 15% ;
-}
-
 .about {
-    padding: 5% 10% 5% 10%;
+    padding: 10% 15% 4% 15%;
     text-align: left;
 }
 
+.frase-karla {
+    padding: 0 15%;
+}
+
+
 
 .logo {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Noe-Display';
     margin: 0 auto;
     color: #fff;
@@ -132,8 +137,8 @@ body {
     display: inline-flex;
 }
 
-.nav-link{
-    margin-top: 20px;
+.nav-link {
+    margin-top: 10px;
 }
 
 .navigazione {
@@ -200,14 +205,14 @@ body {
 
 
 @media (max-width: 800px) {
-    
+
     .logo {
-    font-size: 2.5rem;
-    font-family: 'Noe-Display';
-    margin: 0 auto;
-    color: #fff;
-}
-    
+        font-size: 2.5rem;
+        font-family: 'Noe-Display';
+        margin: 0 auto;
+        color: #fff;
+    }
+
     .sito {
         padding: 0;
         text-align: left;
@@ -229,14 +234,14 @@ body {
     .karla-small {
         font-size: 0.7rem;
     }
-    
+
     .karla-medium {
-    font-family: 'Karla', sans-serif;
-    font-weight: 400;
-    font-size: 1.1rem;
-    color: #fff;
-    line-height: 1.2;
-}
+        font-family: 'Karla', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        color: #fff;
+        line-height: 1.2;
+    }
 
     .shop {
         text-decoration: line-through;
@@ -279,18 +284,26 @@ body {
         margin: 1rem 1.5rem;
     }
 
-.frase-karla {
-    padding:  0 0 ;
-}
+    .frase-karla {
+        padding: 0 0;
+    }
 
-    .bottone {
+    
+        .bottone-home {
         margin: 0 40px;
 
     }
-    
-    .nav-link{
-    margin-top: 10px;
-}
+
+    .nav-link {
+        margin-top: 10px;
+    }
+
+    .about {
+        padding: 120px 40px 30px 40px;
+        text-align: left;
+
+
+    }
 
 }
 
@@ -307,14 +320,15 @@ body {
     .karla-small {
         font-size: 0.5rem;
     }
-    
-        .karla-medium {
+
+    .karla-medium {
         font-size: 0.8rem;
     }
 
-        .shop-sub {
+    .shop-sub {
         margin: 1.5rem 1.5rem;
     }
 
-}
 
+
+}
