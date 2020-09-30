@@ -7,6 +7,10 @@ body {
     background-size: 170% 170%;
     animation: gradient 10s ease infinite;
     z-index: 0;
+                            -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
 
 
 }
