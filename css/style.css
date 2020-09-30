@@ -46,7 +46,6 @@
     -webkit-animation: loading 1s linear reverse infinite;
     z-index: 10000;
     cursor: default;
-    overflow: hidden;
 }
 
 
@@ -79,9 +78,7 @@ body {
 }
 
 .frase-iniziale {
-    padding: 8% 15% 4% 15%;
-    overflow: hidden;
-    pointer-events: none;
+    padding: 15% 15% 4% 15%;
 }
 
 .frase-karla {
@@ -122,7 +119,6 @@ body {
     text-align: center;
     transition-duration: 1s;
     transition-delay: 1s;
-    overflow: hidden;
 }
 
 .nav {
@@ -202,9 +198,16 @@ body {
 
 
 @media (max-width: 800px) {
+    
+    .logo {
+    font-size: 2.5rem;
+    font-family: 'Noe-Display';
+    margin: 0 auto;
+    color: #fff;
+}
+    
     .sito {
         padding: 0;
-        overflow: hidden;
         text-align: left;
     }
 
@@ -254,13 +257,13 @@ body {
     .shop-sub {
         opacity: 1;
         text-align: left;
-        margin: 1.8rem 1.5rem;
+        margin: 3rem 1.5rem;
         left: 0;
-        transform: translate(0, 28px);
+        transform: translate(0, 38px);
     }
 
     .frase-iniziale {
-        padding: 30px 40px 30px 40px;
+        padding: 120px 40px 30px 40px;
         text-align: left;
 
 
@@ -282,6 +285,10 @@ body {
         margin: 0 40px;
 
     }
+    
+    .nav-link{
+    margin-top: 10px;
+}
 
 }
 
