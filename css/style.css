@@ -49,9 +49,52 @@
 }
 
 
+/*NAV*/
+
+.nav {
+    margin: 1rem 2rem 1.5rem 2rem;
+    z-index: 2000;
+}
+
+.nav-right {
+    display: inline-flex;
+}
+
+.nav-link {
+    margin-top: 10px;
+}
+
+.navigazione {
+    color: #fff;
+    transition-duration: 0.5s;
+    border-bottom: 1px solid transparent;
+}
+
+.navigazione:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    transform: translate(0, 3px);
+}
+
+.footer {
+    padding: 8px 16px;
+}
+
+
+/*GENERALE*/
+
 html,
 body {
     overflow: hidden;
+}
+
+.sito {
+    height: 100vh;
+    margin: 0 auto;
+    padding: 3rem 0.5rem;
+    text-align: center;
+    transition-duration: 1s;
+    transition-delay: 1s;
 }
 
 a:hover {
@@ -81,22 +124,6 @@ a:hover {
     color: #fff;
 }
 
-.frase-iniziale {
-    padding: 15% 15% 4% 15%;
-    z-index: 0;
-}
-
-.about {
-    padding: 10% 22% 4% 22%;
-    text-align: left;
-}
-
-.frase-karla {
-    padding: 0 15%;
-}
-
-
-
 .logo {
     font-size: 3rem;
     font-family: 'Noe-Display';
@@ -109,6 +136,28 @@ a:hover {
     text-decoration: none;
 }
 
+.frase-iniziale {
+    padding: 15% 15% 4% 15%;
+    z-index: 0;
+}
+
+.frase-karla {
+    padding: 0 15%;
+}
+
+.about {
+    padding: 10% 22% 4% 22%;
+    text-align: left;
+}
+
+.shop {
+    cursor: default;
+    color: #fff;
+}
+
+.shop:hover {
+    color: #fff;
+}
 
 .shop-sub {
     opacity: 0;
@@ -118,53 +167,11 @@ a:hover {
     display: inline-flex;
 }
 
-.sito {
-    height: 100vh;
-    margin: 0 auto;
-    padding: 3rem 0.5rem;
-    text-align: center;
-    transition-duration: 1s;
-    transition-delay: 1s;
-}
-
-.nav {
-    margin: 1rem 2rem 1.5rem 2rem;
-    z-index: 2000;
-    
-}
-
-
-.nav-right {
-    display: inline-flex;
-}
-
-.nav-link {
-    margin-top: 10px;
-}
-
-.navigazione {
-    color: #fff;
-    transition-duration: 0.5s;
-    border-bottom: 1px solid transparent;
-}
-
-.navigazione:hover {
-    color: #fff;
-    border-bottom: 1px solid #fff;
-    transform: translate(0, 3px);
-}
-
-.footer {
-    padding: 8px 16px;
-}
-
-
 .instagram {
     position: absolute;
     right: 0;
     bottom: 0;
     cursor: pointer;
-
 }
 
 .bottone {
@@ -182,7 +189,6 @@ a:hover {
     transform: translate(5px, 0);
 }
 
-
 .couponcode:hover .coupontooltip {
     display: block;
     cursor: pointer;
@@ -193,15 +199,6 @@ a:hover {
     position: absolute;
     z-index: 1000;
     font-size: 0.7rem;
-}
-
-.shop {
-    cursor: default;
-    color: #fff;
-}
-
-.shop:hover {
-    color: #fff;
 }
 
 
@@ -227,7 +224,6 @@ a:hover {
         color: #fff;
     }
 
-
     .copy {
         text-align: left;
         display: block;
@@ -244,8 +240,8 @@ a:hover {
         color: #fff;
         line-height: 1.2;
     }
-    
-        .poesia {
+
+    .poesia {
         font-family: 'Karla', sans-serif;
         font-weight: 400;
         font-size: 1.1rem;
@@ -278,16 +274,14 @@ a:hover {
         left: 0;
         transform: translate(0, 36px);
     }
-    
-        .shop-sub-about{
+
+    .shop-sub-about {
         transform: translate(0, -46px);
     }
 
     .frase-iniziale {
         padding: 120px 40px 30px 40px;
         text-align: left;
-
-
     }
 
     .frase-noe {
@@ -303,12 +297,9 @@ a:hover {
         padding: 0 0;
     }
 
-    
-        .bottone-home {
+    .bottone-home {
         margin: 0 40px;
-            }
-    
-
+    }
 
     .nav-link {
         margin-top: 10px;
@@ -319,23 +310,21 @@ a:hover {
         margin-top: -40px;
         text-align: left;
         position: relative;
-
     }
-    
-    .footer-about{
+
+    .footer-about {
         position: relative;
         margin-top: 100px;
     }
-    
-        .nav-about{
+
+    .nav-about {
         position: relative;
-            top: 0;
+        top: 0;
     }
 
 }
 
 @media (max-width: 360px) {
-
 
     .noe-big {
         font-size: 2rem;
@@ -355,60 +344,60 @@ a:hover {
     .shop-sub {
         margin: 1.5rem 1.5rem;
     }
-
-
-
-
 }
+
 
 @media (min-width: 1280px) {
-    
+
     .frase-iniziale {
-    padding: 15% 18% 4% 18%;
-}
+        padding: 15% 18% 4% 18%;
+    }
+
     .about {
-    padding: 10% 24% 4% 24%;
+        padding: 10% 24% 4% 24%;
+    }
 }
-
-}
-
 
 @media (min-width: 1400px) {
-    
+
     .frase-iniziale {
-    padding: 15% 20% 4% 20%;
-}
+        padding: 15% 20% 4% 20%;
+    }
+
     .about {
-    padding: 10% 26% 4% 26%;
-}
+        padding: 10% 26% 4% 26%;
+    }
 }
 
 @media (min-width: 1500px) {
-    
+
     .frase-iniziale {
-    padding: 15% 22% 4% 22%;
-}
+        padding: 15% 22% 4% 22%;
+    }
+
     .about {
-    padding: 10% 28% 4% 28%;
-}
+        padding: 10% 28% 4% 28%;
+    }
 }
 
 @media (min-width: 1600px) {
-    
+
     .frase-iniziale {
-    padding: 15% 24% 4% 24%;
-}
+        padding: 15% 24% 4% 24%;
+    }
+
     .about {
-    padding: 10% 30% 4% 30%;
-}
+        padding: 10% 30% 4% 30%;
+    }
 }
 
 @media (min-width: 1700px) {
-    
+
     .frase-iniziale {
-    padding: 15% 26% 4% 26%;
-}
+        padding: 15% 26% 4% 26%;
+    }
+
     .about {
-    padding: 10% 32% 4% 32%;
-}
+        padding: 10% 32% 4% 32%;
+    }
 }
