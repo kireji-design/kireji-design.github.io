@@ -338,11 +338,34 @@ a:hover {
     }
 
     .karla-medium {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .shop-sub {
-        margin: 1.5rem 1.5rem;
+        margin: 0.5rem 1.5rem;
+    }
+
+}
+
+@media (max-height: 600px) {
+
+    .noe-big {
+        font-size: 2rem;
+        line-height: 1;
+        font-family: 'Noe-Display';
+        color: #fff;
+    }
+
+    .karla-small {
+        font-size: 0.5rem;
+    }
+
+    .karla-medium {
+        font-size: 0.9rem;
+    }
+
+    .shop-sub {
+        margin: 0.5rem 1.5rem;
     }
 }
 
