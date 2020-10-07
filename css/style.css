@@ -29,10 +29,12 @@ input:-webkit-autofill:focus {
 textarea:focus,
 input:focus {
     outline: none;
+    -webkit-outline: none;
 }
 
 *:focus {
-    outline: none;
+        outline: none;
+    -webkit-outline: none;
 }
 
 ::placeholder {
