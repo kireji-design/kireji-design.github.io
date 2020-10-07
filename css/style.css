@@ -1,3 +1,74 @@
+.mail-form {
+    display: inline-flex !important;
+}
+
+.mc-field-group {
+    margin-right: 20px;
+}
+
+input {
+    color: #fff;
+    text-align: center;
+    padding: 9px 10px 10px 10px;
+    border: 1px solid #FFF;
+    cursor: text;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-appearance: none !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    border: 1px solid $borderColor;
+    -webkit-text-fill-color: #fff;
+    -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, .3) inset;
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-appearance: none !important;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #fff;
+}
+
+.bottone-invio {
+    text-align: center;
+    display: inline-block;
+    padding: 9px 35px 10px 35px;
+    border: 1px solid #FFF;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.bottone-invio:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translate(5px, 0);
+}
+
+
 /*LOADING*/
 @keyframes loading {
     0% {
@@ -146,7 +217,8 @@ a:hover {
 }
 
 .about {
-    padding: 10% 22% 4% 22%;
+    padding: 0% 20% 4% 20%;
+    margin-top: 120px;
     text-align: left;
 }
 
@@ -322,6 +394,15 @@ a:hover {
         top: 0;
     }
 
+    .mail-form {
+        display: inline-block !important;
+    }
+
+    .mc-field-group {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
 }
 
 @media (max-width: 360px) {
@@ -377,7 +458,7 @@ a:hover {
     }
 
     .about {
-        padding: 10% 24% 4% 24%;
+        padding: 0% 24% 4% 24%;
     }
 }
 
@@ -388,7 +469,7 @@ a:hover {
     }
 
     .about {
-        padding: 10% 26% 4% 26%;
+        padding: 0% 26% 4% 26%;
     }
 }
 
@@ -399,7 +480,7 @@ a:hover {
     }
 
     .about {
-        padding: 10% 28% 4% 28%;
+        padding: 0% 28% 4% 28%;
     }
 }
 
@@ -410,7 +491,7 @@ a:hover {
     }
 
     .about {
-        padding: 10% 30% 4% 30%;
+        padding: 0% 30% 4% 30%;
     }
 }
 
@@ -421,6 +502,6 @@ a:hover {
     }
 
     .about {
-        padding: 10% 32% 4% 32%;
+        padding: 0% 32% 4% 32%;
     }
 }
