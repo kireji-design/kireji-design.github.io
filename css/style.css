@@ -14,6 +14,10 @@ input {
     cursor: text;
     background-color: rgba(255, 255, 255, 0.3);
     -webkit-appearance: none !important;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 input:-webkit-autofill,
@@ -24,17 +28,29 @@ input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, .3) inset;
     transition: background-color 5000s ease-in-out 0s;
     -webkit-appearance: none !important;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 textarea:focus,
 input:focus {
     outline: none;
     -webkit-outline: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 *:focus {
-        outline: none;
+    outline: none;
     -webkit-outline: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 ::placeholder {
