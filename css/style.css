@@ -302,6 +302,22 @@ a:hover {
     cursor: pointer;
 }
 
+.bottone-off {
+        text-align: center;
+    display: inline-block;
+    padding: 9px 35px 10px 35px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid #FFF;
+    cursor: default;
+}
+
+.bottone-off:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translate(0px, 0);
+    cursor: default;
+}
+
 .bottone {
     text-align: center;
     display: inline-block;
@@ -319,7 +335,7 @@ a:hover {
 
 .couponcode:hover .coupontooltip {
     display: block;
-    cursor: pointer;
+    cursor: default;
 }
 
 .coupontooltip {
@@ -327,6 +343,7 @@ a:hover {
     position: absolute;
     z-index: 1000;
     font-size: 0.7rem;
+    color: #fff;
 }
 
 
@@ -401,6 +418,10 @@ a:hover {
         margin: 3rem 1.5rem;
         left: 0;
         transform: translate(0, 36px);
+    }
+    
+        .form-off {
+        transform: translate(0, -12px);
     }
 
     .shop-sub-about {
