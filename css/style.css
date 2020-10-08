@@ -20,31 +20,10 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
     -webkit-border: 1px solid $borderColor;
     -webkit-text-fill-color: #fff;
-    -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0) -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
+    -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0) inset;
+    -webkit-transition: background-color 5000s ease-in-out 0s;
 }
 
-textarea:focus,
-input:focus {
-    -moz-outline: none;
-    -ms-outline: none;
-    -o-outline: none;
-    -webkit-outline: none;
-    outline: none;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    -moz-box-shadow: none;
-    -ms-box-shadow: none;
-    -o-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
 
 *:focus {
     -moz-outline: none;
