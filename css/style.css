@@ -13,82 +13,52 @@ input {
     border: 1px solid #FFF;
     cursor: text;
     background-color: rgba(255, 255, 255, 0.3);
-    -moz-outline: none;
-    -ms-outline: none;
-    -o-outline: none;
-    -webkit-outline: none;
-    outline: none;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    -moz-box-shadow: none;
-    -ms-box-shadow: none;
-    -o-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
 }
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
-    border: 1px solid $borderColor;
+    -webkit-border: 1px solid $borderColor;
     -webkit-text-fill-color: #fff;
-    -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, .3) inset;
-    transition: background-color 5000s ease-in-out 0s;
-    -moz-outline: none;
-    -ms-outline: none;
-    -o-outline: none;
-    -webkit-outline: none;
-    outline: none;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    -moz-box-shadow: none;
-    -ms-box-shadow: none;
-    -o-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+    -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0) inset;
+    -webkit-transition: background-color 5000s ease-in-out 0s;
 }
 
 textarea:focus,
 input:focus {
+    outline: none;
     -moz-outline: none;
     -ms-outline: none;
     -o-outline: none;
     -webkit-outline: none;
-    outline: none;
+    border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
+    box-shadow: none;
     -webkit-border-radius: 0;
-    border-radius: 0;
     -moz-box-shadow: none;
     -ms-box-shadow: none;
     -o-box-shadow: none;
     -webkit-box-shadow: none;
-    box-shadow: none;
 }
 
 *:focus {
+    outline: none;
     -moz-outline: none;
     -ms-outline: none;
     -o-outline: none;
     -webkit-outline: none;
-    outline: none;
+    border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
+    box-shadow: none;
     -webkit-border-radius: 0;
-    border-radius: 0;
     -moz-box-shadow: none;
     -ms-box-shadow: none;
     -o-box-shadow: none;
     -webkit-box-shadow: none;
-    box-shadow: none;
 }
 
 ::placeholder {
@@ -303,7 +273,7 @@ a:hover {
 }
 
 .bottone-off {
-        text-align: center;
+    text-align: center;
     display: inline-block;
     padding: 9px 35px 10px 35px;
     background-color: rgba(255, 255, 255, 0.3);
@@ -419,8 +389,8 @@ a:hover {
         left: 0;
         transform: translate(0, 36px);
     }
-    
-        .form-off {
+
+    .form-off {
         transform: translate(0, -12px);
     }
 
