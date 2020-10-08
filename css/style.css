@@ -32,39 +32,17 @@ input:-webkit-autofill:focus {
 
 textarea:focus,
 input:focus {
-    -moz-outline: none;
-    -ms-outline: none;
-    -o-outline: none;
     -webkit-outline: none;
     outline: none;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
-    -moz-box-shadow: none;
-    -ms-box-shadow: none;
-    -o-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
 }
 
 *:focus {
-    -moz-outline: none;
-    -ms-outline: none;
-    -o-outline: none;
     -webkit-outline: none;
     outline: none;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
-    -moz-box-shadow: none;
-    -ms-box-shadow: none;
-    -o-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
 }
 
 ::placeholder {
