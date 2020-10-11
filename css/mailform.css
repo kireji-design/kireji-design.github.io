@@ -10,39 +10,6 @@
          margin-bottom: 10px;
 }
 
- input {
-     color: #fff;
-     text-align: center;
-     padding: 9px 10px 10px 10px;
-     border: 1px solid #FFF;
-     cursor: text;
-     background-color: rgba(255, 255, 255, 0.3);
-     -webkit-border-radius: 0;
-     border-radius: 0;
- }
-
- input:-webkit-autofill,
- input:-webkit-autofill:hover,
- input:-webkit-autofill:focus {
-     -webkit-border: 1px solid $borderColor;
-     -webkit-text-fill-color: #fff;
-     -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0) inset;
-     -webkit-transition: background-color 5000s ease-in-out 0s;
- }
-
- ::placeholder {
-     color: #fff;
-     opacity: 1;
- }
-
- :-ms-input-placeholder {
-     color: #fff;
- }
-
- ::-ms-input-placeholder {
-     color: #fff;
- }
-
  .bottone-invio {
      text-align: center;
      display: inline-block;
