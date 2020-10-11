@@ -17,11 +17,8 @@
      border: 1px solid #FFF;
      cursor: text;
      background-color: rgba(255, 255, 255, 0.3);
-     -moz-border-radius: 0 !important;
-     -ms-border-radius: 0 !important;
-     -o-border-radius: 0 !important;
-     -webkit-border-radius: 0 !important;
-     border-radius: 0 !important;
+     -webkit-border-radius: 0;
+     border-radius: 0;
  }
 
  input:-webkit-autofill,
@@ -31,22 +28,6 @@
      -webkit-text-fill-color: #fff;
      -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0) inset;
      -webkit-transition: background-color 5000s ease-in-out 0s;
- }
-
-
- textarea:focus,
- input:focus {
-     -webkit-outline: none;
-     outline: none;
-     -webkit-border-radius: 0;
-     border-radius: 0;
- }
-
- *:focus {
-     -webkit-outline: none;
-     outline: none;
-     -webkit-border-radius: 0;
-     border-radius: 0;
  }
 
  ::placeholder {
@@ -86,7 +67,7 @@
 
     .mc-field-group {
         margin-right: 0px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
 }
