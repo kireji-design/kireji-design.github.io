@@ -1,5 +1,3 @@
-
-
  input {
      color: #fff;
      text-align: center;
@@ -9,16 +7,11 @@
      background-color: rgba(255, 255, 255, 0.3);
      -webkit-border-radius: 0;
      border-radius: 0;
-          -webkit-outline: none;
+     -webkit-outline: none;
      outline: none;
+     -webkit-box-shadow: none;
+     box-shadow: none;
  }
-
-
-.mc-field-group{
-         -webkit-box-shadow: none;
-box-shadow: none;
-}
-
 
 
  input:-webkit-autofill,
@@ -41,11 +34,11 @@ box-shadow: none;
 
  ::-ms-input-placeholder {
      color: #fff;
- } 
+ }
 
 
 
-.mail-form {
+ .mail-form {
      display: inline-flex;
  }
 
@@ -53,9 +46,9 @@ box-shadow: none;
      margin-right: 20px;
  }
 
-.margin-bottom-10{
-         margin-bottom: 10px;
-}
+ .margin-bottom-10 {
+     margin-bottom: 10px;
+ }
 
  .bottone-invio {
      text-align: center;
@@ -73,16 +66,15 @@ box-shadow: none;
      transform: translate(5px, 0);
  }
 
-@media (max-width: 800px) {
+ @media (max-width: 800px) {
 
-    .mail-form {
-        display: inline-block;
-    }
+     .mail-form {
+         display: inline-block;
+     }
 
-    .mc-field-group {
-        margin-right: 0px;
-        margin-bottom: 15px;
-    }
+     .mc-field-group {
+         margin-right: 0px;
+         margin-bottom: 15px;
+     }
 
-}
-
+ }
