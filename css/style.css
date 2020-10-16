@@ -212,7 +212,7 @@ a:hover {
 }
 
 .couponcode-2 {
-    width: 20%;
+    width: 250px;
     margin: 0 auto;
 }
 
@@ -249,7 +249,7 @@ a:hover {
     }
 
     .logo {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         font-family: 'Noe-Display';
         margin: 0 auto;
         color: #fff;
@@ -262,7 +262,7 @@ a:hover {
     }
 
     .noe-big {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         line-height: 1.05;
         font-family: 'Noe-Display';
         color: #fff;
