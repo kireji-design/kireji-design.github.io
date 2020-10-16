@@ -23,7 +23,6 @@
  .bottone-invio:hover {
      color: #fff;
      background-color: rgba(255, 255, 255, 0.3);
-     transform: translate(5px, 0);
  }
 
  input {
@@ -45,7 +44,6 @@
      -webkit-appearance: none;
  }
 
-
  ::placeholder {
      color: #fff;
      opacity: 1;
@@ -58,7 +56,6 @@
  ::-ms-input-placeholder {
      color: #fff;
  }
-
 
 
  @media (max-width: 800px) {

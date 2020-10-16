@@ -168,7 +168,7 @@ a:hover {
     display: inline-flex;
 }
 
-.instagram {
+.icone {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -211,6 +211,11 @@ a:hover {
     cursor: default;
 }
 
+.couponcode-2 {
+    width: 20%;
+    margin: 0 auto;
+}
+
 .coupontooltip {
     display: none;
     position: absolute;
@@ -219,8 +224,29 @@ a:hover {
     color: #fff;
 }
 
+.social {
+    margin-left: 20px;
+    transition-duration: 0.5s;
+}
+
+.social:hover {
+    transform: translate(0, -3px);
+}
+
 
 @media (max-width: 800px) {
+
+    .nav-right {
+        width: 100%;
+    }
+
+    .icone {
+        position: absolute;
+        left: 0;
+        margin-left: -20px;
+        margin-bottom: 40px;
+        cursor: pointer;
+    }
 
     .logo {
         font-size: 2.5rem;
@@ -245,6 +271,7 @@ a:hover {
     .copy {
         text-align: left;
         display: block;
+        width: 100%;
     }
 
     .karla-small {
@@ -283,6 +310,11 @@ a:hover {
     .coupontooltip {
         visibility: hidden;
         display: none;
+    }
+
+    .couponcode-2 {
+        width: 100%;
+        margin: 0;
     }
 
     .shop-sub {
