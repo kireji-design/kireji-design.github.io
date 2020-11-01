@@ -86,6 +86,11 @@
 html,
 body {
     overflow: hidden;
+    color: #fff;
+}
+
+a {
+    color: #fff;
 }
 
 .sito {
@@ -105,7 +110,6 @@ a:hover {
     font-family: 'Karla', sans-serif;
     font-weight: 400;
     font-size: 0.9rem;
-    color: #fff;
     line-height: 1.2;
 }
 
@@ -113,7 +117,6 @@ a:hover {
     font-family: 'Karla', sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
-    color: #fff;
     line-height: 1.2;
 }
 
@@ -121,18 +124,15 @@ a:hover {
     font-size: 3rem;
     line-height: 1.05;
     font-family: 'Noe-Display';
-    color: #fff;
 }
 
 .logo {
     font-size: 3rem;
     font-family: 'Noe-Display';
     margin: 0 auto;
-    color: #fff;
 }
 
 .logo:hover {
-    color: #fff;
     text-decoration: none;
 }
 
