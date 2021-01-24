@@ -141,6 +141,21 @@ a:hover {
     display: auto;
     width: 100%;
 }
+    
+    .click {
+        position: absolute;
+    left: 32px;
+}
+    
+    .kj{
+        width: 22px;
+        margin: 0 auto;
+    }
+    
+    .menu{
+        position: absolute;
+    right: 32px;
+    }
 
     
 }
