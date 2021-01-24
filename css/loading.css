@@ -1,0 +1,48 @@
+/*LOADING*/
+@keyframes loading {
+    0% {
+        max-height: 0;
+    }
+}
+
+#loading {
+    width: 100%;
+    height: 100vh;
+    opacity: 1;
+    background-color: var(--text-color);
+    background-image: url("bg_white.png");
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.loading-kj {
+    font-family: 'Noe-Display';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -70px;
+    margin-left: -30px;
+    color: transparent;
+    background: var(--bkg-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 64px;
+    z-index: 10000;
+    cursor: default;
+    overflow: hidden;
+}
+
+.loading-kj:before {
+    content: attr(data-text);
+    position: absolute;
+    overflow: hidden;
+    max-height: 80px;
+    -webkit-text-stroke: 1px var(--bkg-color);
+    white-space: nowrap;
+    color: var(--text-color);
+    -webkit-animation: loading 1s linear reverse infinite;
+    z-index: 10000;
+    cursor: default;
+}

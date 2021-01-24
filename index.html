@@ -14,6 +14,7 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-178754398-1');
+
     </script>
 
     <!-- Meta tags -->
@@ -43,9 +44,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- CSS -->
+    <link rel="stylesheet" href="./css/loading.css">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/gradiente.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/menu.css">
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -60,101 +63,198 @@
 </head>
 
 <body>
-    <div class="sito">
-        <div class="nav-link shop-sub karla-small fixed-top">arriva presto! :)</div>
 
-        <!-- Frase  -->
-        <div class="frase fixed-top">
-            <div class="frase-iniziale">
-                <div class="noe-big frase-noe">
-                    kireji: un ribaltamento di prospettiva,
-                    uno stravolgimento di significato.
+
+    <!-- Loader -->
+    <script>
+        $('html').css('overflow', 'hidden');
+        $('body').append('<div id="loading"><div class="loading-kj" data-text="kj">kj</div></div>');
+        $(window).on('load', function() {
+            setTimeout(removeLoader, 1000);
+        });
+
+        function removeLoader() {
+            $('html').css('overflow', 'auto');
+            $("#loading").fadeOut(500, function() {
+                $("#loading").remove();
+            });
+        }
+
+    </script>
+
+
+    <!-- Navbar -->
+    <ul class="nav justify-content-between fixed-top">
+
+        <li class="nav-item">
+            <a href="./index.html">
+                <h2>kj</h2>
+            </a>
+        </li>
+        <li class="nav-item right">
+            <a class="click btn-toggle">
+                <h5><i>click!</i></h5>
+            </a>
+            <div class="menu" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+            </div>
+        </li>
+        <div class="menu-aperto justify-content-between">
+            <div class="col0">
+                <div class="col1">
+                    <div class="menu-list">
+                        <p class="menu-text-small">01.</p>
+                        <a class="menu-text-big" href="./index.html">home</a>
+                    </div>
+                    <div class="menu-list">
+                        <p class="menu-text-small">02.</p>
+                        <a class="menu-text-big" href="./gallery.html">gallery</a>
+                    </div>
+                    <div class="menu-list">
+                        <p class="menu-text-small">03.</p>
+                        <a class="menu-text-big" href="./about.html">about</a>
+                    </div>
                 </div>
 
-                <div class="karla-medium frase-karla">
-                    <br> qui vorremmo, tramite il gentile potere dell’illustrazione, farti vedere da un altro punto di vista le paure e i pensieri che più ti preoccupano.
+                <div class="col2">
+                    <div class="menu-list">
+                        <a class="menu-text-medium" href="https://www.instagram.com/kireji.design/" target="_blank">Instagram</a>
+                    </div>
+                    <div class="menu-list">
+                        <a class="menu-text-medium" href="https://www.facebook.com/kireji.design" target="_blank">Facebook</a>
+                    </div>
+                    <div class="menu-list">
+                        <a class="menu-text-medium" href="https://www.linkedin.com/company/kirejidesign/" target="_blank">Linkedin</a>
+                    </div>
+                    <div class="menu-list">
+                        <a class="menu-text-medium" href="https://open.spotify.com/user/qfanmimczb29oxj8bp63wlacn?si=llwlP6afS26WtsGyGy-nQA" target="_blank">Spotify</a>
+                    </div>
+                </div>
+                <div class="menu-text-small mail">Per info e collaborazioni: <a class="menu-text-small" href="mailto:kireji.design@mail.com"><b><i><u>kireji.design@mail.com</u></i></b></a></div>
+            </div>
+        </div>
+    </ul>
+
+
+    <!-- Home -->
+    <div class="container-fluid no-gutters">
+        <div class="row no-gutters block">
+            <div class="col testo">
+                <h1>kireji —</h1>
+                <h6>per quando hai <b><i>paura</i></b> di.</h6>
+
+                <h4><br><br>Qui vorremmo, tramite il gentile potere dell’<b><i>illustrazione</i></b>, farti vedere da <b><i>un altro punto di vista</i></b> le paure e i pensieri che più ti preoccupano.<br><br></h4>
+
+                <a class="typeform-share link" href="https://form.typeform.com/to/VD9RRVys" data-mode="drawer_right" target="_blank">
+                    <div class="bottone">
+                        <h5>ti va di raccontarceli?</h5>
+                    </div>
+                </a>
+                <script>
+                    (function() {
+                        var qs, js, q, s, d = document,
+                            gi = d.getElementById,
+                            ce = d.createElement,
+                            gt = d.getElementsByTagName,
+                            id = "typef_orm_share",
+                            b = "https://embed.typeform.com/";
+                        if (!gi.call(d, id)) {
+                            js = ce.call(d, "script");
+                            js.id = id;
+                            js.src = b + "embed.js";
+                            q = gt.call(d, "script")[0];
+                            q.parentNode.insertBefore(js, q)
+                        }
+                    })()
+
+                </script>
+
+                <div class="footer fixed-bottom">
+                    <h6>Progettato con profonda <b>immaginazione</b>, <b>empatia</b> ed immancabile <b>passione</b>. © 2020.</h6>
                 </div>
             </div>
-
-            <a class="typeform-share link" href="https://form.typeform.com/to/VD9RRVys" data-mode="drawer_right" target="_blank">
-    <div class="karla-medium bottone-home bottone">ti va di raccontarceli?&nbsp;&nbsp; <img src="./assets/freccia.svg" width="18px" height="auto"></div>
-</a>
-<script>
-    (function() {
-        var qs, js, q, s, d = document,
-            gi = d.getElementById,
-            ce = d.createElement,
-            gt = d.getElementsByTagName,
-            id = "typef_orm_share",
-            b = "https://embed.typeform.com/";
-        if (!gi.call(d, id)) {
-            js = ce.call(d, "script");
-            js.id = id;
-            js.src = b + "embed.js";
-            q = gt.call(d, "script")[0];
-            q.parentNode.insertBefore(js, q)
-        }
-    })()
-
-</script>
-
+            <div class="col illustrazioni">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <a href="./01-42%25.html">
+                            <img class="illustrazioni-home" src="assets/illustrazioni/42.jpg">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="./02-lunedi.html">
+                            <img class="illustrazioni-home" src="assets/illustrazioni/Luned%C3%AC.jpg">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="./03-crostata.html">
+                            <img class="illustrazioni-home" src="assets/illustrazioni/Crostata.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col">
+                            <a href="./04-menu.html">
+                                <img class="illustrazioni-home" src="assets/illustrazioni/Men%C3%B9.jpg">
+                        </a>
+                    </div>
+                    <div class="col"> 
+                        <a href="./05-temporale.html">
+                            <img class="illustrazioni-home" src="assets/illustrazioni/Temporale.jpg">
+                        </a>
+                    </div>
+                    <div class="col"> 
+                        <a href="./06-soglia.html">
+                        <img class="illustrazioni-home" src="assets/illustrazioni/Soglia.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col">
+                        <a href="./07-impeto.html">
+                            <img class="illustrazioni-home" src="assets/illustrazioni/Impeto.jpg">
+                        </a>
+                    </div>
+                    <div class="col"> 
+                        <a href="./08-domino.html">
+                            <img class="illustrazioni-home" src="assets/illustrazioni/Domino.jpg">
+                        </a>
+                    </div>
+                    <div class="col"> 
+                        <a href="./09-realta.html">
+                            <img class="illustrazioni-home" src="assets/illustrazioni/Realt%C3%A0.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col">
+                        <a href="./10-filtro.html">
+                            <img class="illustrazioni-home" src="assets/illustrazioni/Filtro.jpg">
+                        </a>
+                    </div>
+                    <div class="col"> 
+                        <a href="./11-la-regola-e-il-caso.html">
+                            <img class="illustrazioni-home" src="assets/illustrazioni/La-Regola-E-Il-Caso.jpg">
+                        </a>
+                    </div>
+                    <div class="col"> 
+                        <a href="./12-cinque-di-coppe.html">
+                            <img class="illustrazioni-home" src="assets/illustrazioni/Cinque-Di-Coppe.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Navbar -->
-        <ul class="nav justify-content-between fixed-top">
-            <li class="couponcode karla-medium nav-left"><a class="nav-link shop" href="#">shop</a>
-                <span class="coupontooltip">arriva presto, prestissimo! :)</span>
-            </li>
-            <li class="nav-item">
-                <a class="logo" href="https://kireji.design">kj</a>
-            </li>
-            <li class="nav-item karla-medium">
-                <a class="nav-link" href="https://kireji.design/about">
-                    <div class="navigazione">about</div>
-                </a>
-            </li>
-        </ul>
-
-        <!-- Footer  -->
-        <ul class="nav justify-content-between fixed-bottom">
-            <li class="footer nav-item nav-right karla-small">
-                <div class="copy">Progettato con profonda&nbsp;<b>immaginazione</b>,&nbsp;<br><b>empatia</b>&nbsp;ed immancabile&nbsp;<b>passione</b>.&nbsp;© 2020.</div>
-            </li>
-            <li class="footer nav-item nav-left icone">
-                <a href="https://www.instagram.com/kireji.design/" target="_blank">
-                    <img class="social" src="./assets/logo-instagram.svg" height="25px" width="auto">
-                </a>
-                <a href="https://www.facebook.com/kireji.design/" target="_blank">
-                    <img class="social" src="./assets/logo-fb.svg" height="25px" width="auto">
-                </a>
-                <a href="https://www.linkedin.com/company/kirejidesign/" target="_blank">
-                    <img class="social" src="./assets/logo-linkedin.svg" height="25px" width="auto">
-                </a>
-            </li>
-        </ul>
-
-        <script>
-            $('html').css('overflow', 'hidden');
-            $('body').append('<div id="loading"><div class="loading-kj" data-text="kj">kj</div></div>');
-            $(window).on('load', function() {
-                setTimeout(removeLoader, 1000);
-            });
-
-            function removeLoader() {
-                $('html').css('overflow', 'auto');
-                $("#loading").fadeOut(500, function() {
-                    $("#loading").remove();
-                });
-            }
-        </script>
     </div>
+
 
     <!-- Optional JavaScript -->
     <script type="text/javascript" src="./js/main.js"></script>
-    <script type="text/javascript" src="./js/countdown.js"></script>
-    <script type="text/javascript" src="./js/hover.js"></script>
-
+    <script type="text/javascript" src="./js/menu.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-</body></html>
+</body>
+
+</html>

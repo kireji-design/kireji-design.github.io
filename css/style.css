@@ -1,477 +1,147 @@
-/*LOADING*/
-@keyframes loading {
-    0% {
-        max-height: 0;
+h1 {
+    font-family: 'Noe-Display';
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: 'Noe-Display';
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: 'Karla', sans-serif;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-family: 'Karla', sans-serif;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+h5 {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+h6 {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.menu-text {
+    font-family: 'Noe-Display';
+    font-size: 36px;
+    margin-bottom: 0;
+    color: var(--bkg-color);
+}
+
+body {
+    --text-color: #FB8F67;
+    --bkg-color: #FFFFE9;
+    --bkg-color-opacity-0: rgba(251, 143, 103, 0);
+    --bkg-color-opacity-2: rgba(251, 143, 103, 0.2);
+}
+
+body.dark-theme {
+    --text-color: #EAF8BF;
+    --bkg-color: #7E709E;
+    --bkg-color-opacity-0: rgba(234, 248, 191, 0);
+    --bkg-color-opacity-2: rgba(234, 248, 191, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+
+    /* defaults to dark theme */
+    body {
+        --text-color: #EAF8BF;
+        --bkg-color: #7E709E;
+        --bkg-color-opacity-0: rgba(234, 248, 191, 0);
+        --bkg-color-opacity-2: rgba(234, 248, 191, 0.2);
+    }
+
+    body.light-theme {
+        --text-color: #FB8F67;
+        --bkg-color: #FFFFE9;
+        --bkg-color-opacity-0: rgba(251, 143, 103, 0);
+        --bkg-color-opacity-2: rgba(251, 143, 103, 0.2);
     }
 }
 
-#loading {
-    width: 100%;
-    height: 100vh;
-    opacity: 1;
-    background-color: #F5F4F4;
-    background-image: url("bg_white.png");
-    z-index: 10000;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-.loading-kj {
-    font-size: 4rem;
-    font-family: 'Noe-Display';
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -70px;
-    margin-left: -30px;
-    color: transparent;
-    background: linear-gradient(to bottom, #d0c8e3, #ddebb1, #fbc392);
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-size: 65px;
-    z-index: 10000;
-    cursor: default;
-    overflow: hidden;
-}
-
-.loading-kj:before {
-    content: attr(data-text);
-    position: absolute;
-    overflow: hidden;
-    max-height: 80px;
-    -webkit-text-stroke: 1px #F5F4F4;
-    white-space: nowrap;
-    color: #F5F4F4;
-    -webkit-animation: loading 1s linear reverse infinite;
-    z-index: 10000;
-    cursor: default;
-}
-
-
-/*NAV*/
-
+body,
 .nav {
-    margin: 1rem 2rem 1.5rem 2rem;
-    z-index: 2000;
+    background: var(--bkg-color);
 }
 
-.nav-right {
-    display: inline-flex;
-}
-
-.nav-link {
-    margin-top: 10px;
-}
-
-.navigazione {
-    color: #fff;
-    transition-duration: 0.5s;
-    border-bottom: 1px solid transparent;
-}
-
-.navigazione:hover {
-    color: #fff;
-    border-bottom: 1px solid #fff;
-    transform: translate(0, 3px);
-}
-
-.footer {
-    padding: 8px 16px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+a:hover,
+p,
+img,
+.nav,
+div,
+input,
+.bottone,
+.bottone-invio {
+    color: var(--text-color);
 }
 
 
-/*GENERALE*/
-
-html,
 body {
-    overflow: hidden;
-    color: #fff;
+    width: auto;
+    overflow-x: hidden;
 }
 
-a {
-    color: #fff;
-}
-
-.sito {
-    height: 100vh;
-    margin: 0 auto;
-    padding: 3rem 0.5rem;
-    text-align: center;
-    transition-duration: 1s;
-    transition-delay: 1s;
-}
-
+a,
 a:hover {
     text-decoration: none;
+    
 }
 
-.karla-small {
-    font-family: 'Karla', sans-serif;
-    font-weight: 400;
-    font-size: 0.9rem;
-    line-height: 1.2;
+.nav {
+    border-bottom: solid 1px;
+    position: fixed;
+    height: 70px;
+    padding: 16px 32px 4px 32px;
 }
 
-.karla-medium {
-    font-family: 'Karla', sans-serif;
-    font-weight: 400;
-    font-size: 1.1rem;
-    line-height: 1.2;
-}
-
-.noe-big {
-    font-size: 3rem;
-    line-height: 1.05;
-    font-family: 'Noe-Display';
-}
-
-.logo {
-    font-size: 3rem;
-    font-family: 'Noe-Display';
-    margin: 0 auto;
-}
-
-.logo:hover {
-    text-decoration: none;
-    color: #fff;
-}
-
-.frase-iniziale {
-    padding: 15% 15% 4% 15%;
-    z-index: 0;
-}
-
-.frase-karla {
-    padding: 0 15%;
-}
-
-.about {
-    padding: 0% 20% 4% 20%;
-    margin-top: 120px;
-    text-align: left;
-}
-
-.shop {
-    cursor: default;
-    color: #fff;
-}
-
-.shop:hover {
-    color: #fff;
-}
-
-.shop-sub {
-    opacity: 0;
-}
-
-.copy {
-    display: inline-flex;
-}
-
-.icone {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+.click {
+    padding-top: 8px;
     cursor: pointer;
 }
 
-.bottone-off {
+.bottone, input {
     text-align: center;
     display: inline-block;
     padding: 9px 35px 10px 35px;
-    background-color: rgba(255, 255, 255, 0.3);
-    border: 1px solid #FFF;
-    cursor: default;
-}
-
-.bottone-off:hover {
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.3);
-    transform: translate(0px, 0);
-    cursor: default;
-}
-
-.bottone {
-    text-align: center;
-    display: inline-block;
-    padding: 9px 35px 10px 35px;
-    border: 1px solid #FFF;
+    border: 1px solid;
     cursor: pointer;
-    transition-duration: 0.5s;
+    background-color: var(--bkg-color-opacity-0);
 }
 
 .bottone:hover {
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.3);
-    transform: translate(5px, 0);
+    background-color: var(--bkg-color-opacity-2);
 }
 
-.couponcode:hover .coupontooltip {
-    display: block;
-    cursor: default;
+/*MOBILE*/
+
+@media (max-width: 900px) {
+
+.bottone, input {
+    display: auto;
+    width: 100%;
 }
 
-.couponcode-2 {
-    width: 250px;
-    margin: 0 auto;
+    
 }
 
-.coupontooltip {
-    display: none;
-    position: absolute;
-    z-index: 1000;
-    font-size: 0.7rem;
-    color: #fff;
-}
-
-.social {
-    margin-left: 20px;
-    transition-duration: 0.5s;
-}
-
-.social:hover {
-    transform: translate(0, -3px);
-}
-
-
-@media (max-width: 800px) {
-
-    .nav-right {
-        width: 100%;
-    }
-
-    .icone {
-        position: absolute;
-        left: 0;
-        margin-left: -20px;
-        margin-bottom: 40px;
-        cursor: pointer;
-    }
-
-    .logo {
-        font-size: 2.2rem;
-        font-family: 'Noe-Display';
-        margin: 0 auto;
-        color: #fff;
-    }
-
-    .sito {
-        padding: 0;
-        text-align: left;
-        height: 100vh;
-    }
-
-    .noe-big {
-        font-size: 2.2rem;
-        line-height: 1.05;
-        font-family: 'Noe-Display';
-        color: #fff;
-    }
-
-    .copy {
-        text-align: left;
-        display: block;
-        width: 100%;
-    }
-
-    .karla-small {
-        font-size: 0.7rem;
-    }
-
-    .karla-medium {
-        font-family: 'Karla', sans-serif;
-        font-weight: 400;
-        font-size: 1.1rem;
-        color: #fff;
-        line-height: 1.2;
-    }
-
-    .poesia {
-        font-family: 'Karla', sans-serif;
-        font-weight: 400;
-        font-size: 1.1rem;
-        color: #fff;
-        line-height: 1.2;
-    }
-
-    .shop {
-        text-decoration: line-through;
-    }
-
-    .shop:hover {
-        text-decoration: line-through;
-    }
-
-    .couponcode:hover .coupontooltip {
-        visibility: hidden;
-        display: none;
-    }
-
-    .coupontooltip {
-        visibility: hidden;
-        display: none;
-    }
-
-    .couponcode-2 {
-        width: 100%;
-        margin: 0;
-    }
-
-    .shop-sub {
-        opacity: 1;
-        text-align: left;
-        margin: 3rem 1.5rem;
-        left: 0;
-        transform: translate(0, 36px);
-    }
-
-    .form-off {
-        transform: translate(0, -12px);
-    }
-
-    .frase-iniziale {
-        padding: 90px 40px 30px 40px;
-        text-align: left;
-    }
-
-    .frase-noe {
-        display: flex;
-    }
-
-    .nav {
-        margin: 1rem 1.5rem;
-        z-index: 2000;
-    }
-
-    .frase-karla {
-        padding: 0 0;
-    }
-
-    .bottone-home {
-        margin: 0 40px;
-    }
-
-    .nav-link {
-        margin-top: 10px;
-    }
-
-    .about {
-        padding: 0 40px 0 40px;
-        margin-top: -40px;
-        text-align: left;
-        position: relative;
-    }
-
-    .footer-about {
-        position: relative;
-        margin-top: 100px;
-    }
-
-    .nav-about {
-        position: relative;
-        top: 0;
-    }
-
-}
-
-@media (max-width: 360px) {
-
-    .noe-big {
-        font-size: 2rem;
-        line-height: 1;
-        font-family: 'Noe-Display';
-        color: #fff;
-    }
-
-    .karla-small {
-        font-size: 0.5rem;
-    }
-
-    .karla-medium {
-        font-size: 0.9rem;
-    }
-
-    .shop-sub {
-        margin: 0.5rem 1.5rem;
-    }
-
-}
-
-@media (max-height: 600px) {
-
-    .noe-big {
-        font-size: 2rem;
-        line-height: 1;
-        font-family: 'Noe-Display';
-        color: #fff;
-    }
-
-    .karla-small {
-        font-size: 0.5rem;
-    }
-
-    .karla-medium {
-        font-size: 0.9rem;
-    }
-
-    .shop-sub {
-        margin: 0.5rem 1.5rem;
-    }
-}
-
-
-@media (min-width: 1280px) {
-
-    .frase-iniziale {
-        padding: 15% 18% 4% 18%;
-    }
-
-    .about {
-        padding: 0% 24% 4% 24%;
-    }
-}
-
-@media (min-width: 1400px) {
-
-    .frase-iniziale {
-        padding: 15% 20% 4% 20%;
-    }
-
-    .about {
-        padding: 0% 26% 4% 26%;
-    }
-}
-
-@media (min-width: 1500px) {
-
-    .frase-iniziale {
-        padding: 15% 22% 4% 22%;
-    }
-
-    .about {
-        padding: 0% 28% 4% 28%;
-    }
-}
-
-@media (min-width: 1600px) {
-
-    .frase-iniziale {
-        padding: 15% 24% 4% 24%;
-    }
-
-    .about {
-        padding: 0% 30% 4% 30%;
-    }
-}
-
-@media (min-width: 1700px) {
-
-    .frase-iniziale {
-        padding: 15% 26% 4% 26%;
-    }
-
-    .about {
-        padding: 0% 32% 4% 32%;
-    }
-}

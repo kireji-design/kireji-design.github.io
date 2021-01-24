@@ -1,15 +1,40 @@
+ .illustrazioni {
+     margin-top: 69px;
+     width:100%;
+     padding: 32px 32px 0 32px;
 
-html,
-body {
-    background-color: #fae6d2!important;
-    overflow: hidden!important;
-    color: #fb8f67!important;
+ }
+
+ .illustrazioni-home {
+     border: 0.5px solid;
+     width:100%;
+ }
+
+
+.descrizione{
+    border-bottom: 0.5px solid;
+    border-left: 0.5px solid;
+    border-right: 0.5px solid;
+    margin-bottom: 32px;
+    padding: 16px;
+    display: flex;
 }
 
-a {
-    color: #fb8f67!important;
-}
 
-.colore-icon {
-    fill: #fb8f67!important;
+/*MOBILE*/
+
+@media (max-width: 900px) {
+
+
+    
+
+
+    .row{
+        display: block;
+    }
+
+    
+    
+    
+    
 }
