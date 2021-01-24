@@ -48,9 +48,10 @@
 
     .illustrazioni {
         right: 0;
-        width: 100%;
+        width: auto;
         position: relative;
         border: 1px solid;
+        margin: 0px 32px 32px 32px;
     }
 
     .footer {
@@ -61,5 +62,8 @@
         z-index: 0;
 
     }
+    
+
+
 
 }

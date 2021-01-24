@@ -11,6 +11,7 @@
     opacity: 1;
     background-color: var(--text-color);
     background-image: url("bg_white.png");
+    -webkit-text-stroke: 1px var(--bkg-color);
     z-index: 10000;
     position: fixed;
     top: 0;
@@ -27,6 +28,7 @@
     color: transparent;
     background: var(--bkg-color);
     -webkit-background-clip: text;
+    -webkit-text-stroke: 1px var(--bkg-color);
     background-clip: text;
     font-size: 64px;
     z-index: 10000;

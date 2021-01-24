@@ -5,7 +5,8 @@
 }
 
 .testo {
-    margin: 101px 0px 48px 32px;
+    margin: 101px 32px 0px 32px;
+    padding-bottom: 48px;
     width: 45%;
     left: 0;
     position: absolute;
@@ -87,7 +88,7 @@
     }
 
     .testo {
-        margin: 32px 32px 48px 32px;
+        margin: 32px 32px 0 32px;
         width: 100%;
         left: 0;
         position: relative;

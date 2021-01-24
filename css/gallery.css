@@ -5,10 +5,16 @@
 
  }
 
+
+
  .illustrazioni-home {
      border: 1px solid;
      width:100%;
  }
+
+  .row-mobile{
+      display: none;
+    }
 
 
 .descrizione{
@@ -25,16 +31,20 @@
 
 @media (max-width: 900px) {
 
-
-    
-
-
-    .row{
+  .row{
         display: block;
     }
+    
+.illustrazioni {
+     display: none;
+ }
+    
+    .illustrazioni-mobile {
+     margin-top: 101px;
+ }
+      .row-mobile{
+      display: flex;
+    }
 
-    
-    
-    
     
 }
