@@ -39,17 +39,23 @@
      display: none;
  }
     
+
+    
     .illustrazioni-mobile {
      margin-top: 101px;
  }
       .row-mobile{
       display: flex;
+          padding-bottom: 32px;
     }
     
     h6 {
     font-size: 10px;
 }
 
-
+.descrizione{
+    
+    display: none;
+}
     
 }
