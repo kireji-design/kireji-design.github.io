@@ -36,7 +36,6 @@
     }
 
     .block {
-
         display: inline-block;
     }
 
@@ -44,7 +43,6 @@
         width: auto;
         position: relative;
     }
-
 
     .illustrazioni {
         right: 0;
@@ -59,10 +57,6 @@
         padding: 16px 0 16px 0;
         margin: 48px 0 0 0;
         z-index: 0;
-
     }
-    
-
-
 
 }

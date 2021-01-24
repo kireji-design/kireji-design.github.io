@@ -2,10 +2,7 @@
      margin-top: 69px;
      width: 100%;
      padding: 32px 32px 0 32px;
-
  }
-
-
 
  .illustrazioni-home {
      border: 1px solid;
@@ -15,7 +12,6 @@
  .row-mobile {
      display: none;
  }
-
 
  .descrizione {
      border-bottom: 1px solid;
@@ -39,8 +35,6 @@
          display: none;
      }
 
-
-
      .illustrazioni-mobile {
          margin-top: 101px;
      }
@@ -48,7 +42,5 @@
      .row-mobile {
          display: flex;
      }
-     
-
 
  }

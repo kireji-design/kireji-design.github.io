@@ -105,7 +105,7 @@ body {
 a,
 a:hover {
     text-decoration: none;
-    
+
 }
 
 .nav {
@@ -120,7 +120,8 @@ a:hover {
     cursor: pointer;
 }
 
-.bottone, input {
+.bottone,
+input {
     text-align: center;
     display: inline-block;
     padding: 9px 35px 10px 35px;
@@ -137,26 +138,24 @@ a:hover {
 
 @media (max-width: 900px) {
 
-.bottone, input {
-    display: auto;
-    width: 100%;
-}
-    
+    .bottone,
+    input {
+        display: auto;
+        width: 100%;
+    }
+
     .click {
         position: absolute;
-    left: 32px;
-}
-    
-    .kj{
+        left: 32px;
+    }
+
+    .kj {
         width: 22px;
         margin: 0 auto;
     }
-    
-    .menu{
+
+    .menu {
         position: absolute;
-    right: 32px;
+        right: 32px;
     }
-
-    
 }
-

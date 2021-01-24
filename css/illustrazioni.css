@@ -55,9 +55,9 @@
     transform: translate(4px, 0);
 }
 
-.freccie{
-         margin-bottom: 8px;
-     }
+.freccie {
+    margin-bottom: 8px;
+}
 
 /*MOBILE*/
 
@@ -118,11 +118,9 @@
         width: 30px;
         margin: 0 auto;
     }
-    
-         .freccie{
-         margin-bottom: 32px;
-     }
 
-
+    .freccie {
+        margin-bottom: 32px;
+    }
 
 }
