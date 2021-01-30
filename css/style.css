@@ -114,6 +114,7 @@ a:hover {
     height: 70px;
     padding: 16px 32px 4px 32px;
     -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
 }
 
 .click {
