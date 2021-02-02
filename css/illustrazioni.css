@@ -25,7 +25,7 @@
     right: 0;
     border: 1px solid;
     opacity: 0;
-    
+
 }
 
 .illustrazione {
@@ -77,11 +77,11 @@
 /*MOBILE*/
 
 @media (max-width: 900px) {
-    .row{
+    .row {
         display: flex;
-    flex-direction: column-reverse; 
+        flex-direction: column-reverse;
     }
-    
+
     .container-fluid {
         display: block;
     }
@@ -92,8 +92,8 @@
         height: auto;
         margin-top: 69px;
     }
-    
-        .placeholder {
+
+    .placeholder {
         display: none;
     }
 
