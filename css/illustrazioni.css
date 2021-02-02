@@ -5,26 +5,29 @@
 }
 
 .testo {
-    margin: 101px 55% 0px 32px;
+    margin: 101px 32px 0px 32px;
     padding-bottom: 48px;
-    width: auto;
     left: 0;
-    position: absolute;
+    position: relative;
 }
 
 .illustrazione-container {
     right: 0;
     width: 100%;
-    position: fixed;
+    position: relative;
 }
 
 .illustrazione {
-    width: auto;
-    position: absolute;
+    position: relative;
     height: 100vh;
-    padding-top: 69px;
+    padding-top: 0px;
+    padding-right: 0;
     right: 0;
     border: 1px solid;
+}
+
+.rec {
+    height: 69px;
 }
 
 .gallery {
@@ -60,25 +63,6 @@
 }
 
 /*MOBILE*/
-
-@media (max-width: 1200px) {
-    .testo {
-        margin: 101px 60% 0px 32px;
-    }
-}
-
-@media (max-width: 1100px) {
-    .testo {
-        margin: 101px 65% 0px 32px;
-    }
-}
-
-@media (max-width: 1000px) {
-    .testo {
-        margin: 101px 70% 0px 32px;
-    }
-}
-
 
 @media (max-width: 900px) {
 
