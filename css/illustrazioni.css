@@ -5,9 +5,9 @@
 }
 
 .testo {
-    margin: 101px 32px 0px 32px;
+    margin: 101px 55% 0px 32px;
     padding-bottom: 48px;
-    width: 45%;
+    width: auto;
     left: 0;
     position: absolute;
 }
@@ -61,24 +61,24 @@
 
 /*MOBILE*/
 
-
 @media (max-width: 1200px) {
     .testo {
-        width: 40%;
+        margin: 101px 60% 0px 32px;
     }
 }
 
 @media (max-width: 1100px) {
     .testo {
-        width: 35%;
+        margin: 101px 65% 0px 32px;
     }
 }
 
 @media (max-width: 1000px) {
     .testo {
-        width: 30%;
+        margin: 101px 70% 0px 32px;
     }
 }
+
 
 @media (max-width: 900px) {
 
