@@ -5,7 +5,7 @@
 }
 
 .testo {
-    margin: 101px 32px 0px 32px;
+    margin: 101px 64px 0px 32px;
     padding-bottom: 48px;
     left: 0;
     position: relative;
@@ -17,8 +17,19 @@
     position: relative;
 }
 
-.illustrazione {
+.placeholder {
     position: relative;
+    height: 100vh;
+    padding-top: 0px;
+    padding-right: 0;
+    right: 0;
+    border: 1px solid;
+    opacity: 0;
+    
+}
+
+.illustrazione {
+    position: fixed;
     height: 100vh;
     padding-top: 0px;
     padding-right: 0;
@@ -60,12 +71,17 @@
 
 .freccie {
     margin-bottom: 8px;
+    padding-top: 12px;
 }
 
 /*MOBILE*/
 
 @media (max-width: 900px) {
-
+    .row{
+        display: flex;
+    flex-direction: column-reverse; 
+    }
+    
     .container-fluid {
         display: block;
     }
@@ -74,11 +90,16 @@
         position: relative;
         width: 100vw;
         height: auto;
+        margin-top: 69px;
+    }
+    
+        .placeholder {
+        display: none;
     }
 
     .testo {
-        margin: 32px 32px 0 32px;
-        width: 100%;
+        margin: 32px 32px 0px 32px;
+        width: auto;
         left: 0;
         position: relative;
     }
@@ -105,6 +126,7 @@
 
     .freccie {
         margin-bottom: 32px;
+        padding-top: 0px;
     }
 
 }
