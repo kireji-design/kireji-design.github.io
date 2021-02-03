@@ -24,6 +24,10 @@
     border: 1px solid;
 }
 
+.illustrazioni-mobile {
+    display: none;
+}
+
 
 /*MOBILE*/
 
@@ -45,10 +49,7 @@
     }
 
     .illustrazioni {
-        right: 0;
-        width: auto;
-        position: relative;
-        border: 1px solid;
+        display: none;
     }
 
     .footer {
@@ -58,5 +59,23 @@
         margin: 48px 0 0 0;
         z-index: 0;
     }
+
+    .illustrazioni-mobile {
+        display: inline-flex;
+        white-space: nowrap;  
+        overflow-x: scroll;
+        width: 100vw;
+        
+    outline: 1px solid;
+    }
+
+    .ill-mob {
+        display: inline-flex;
+        width: 170px;
+        height: auto;
+        
+    outline: 1px solid;
+    }
+
 
 }
