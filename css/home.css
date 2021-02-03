@@ -62,19 +62,33 @@
 
     .illustrazioni-mobile {
         display: inline-flex;
-        white-space: nowrap;  
+        white-space: nowrap;
         overflow-x: scroll;
         width: 100vw;
-        
-    outline: 1px solid;
+        outline: 1px solid;
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
     }
 
     .ill-mob {
         display: inline-flex;
         width: 170px;
         height: auto;
-        
-    outline: 1px solid;
+        outline: 1px solid;
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    .ill-mob::-webkit-scrollbar {
+        display: none;
+    }
+
+    .illustrazioni-mobile::-webkit-scrollbar {
+        display: none;
     }
 
 
