@@ -65,7 +65,7 @@
         white-space: nowrap;
         overflow-x: scroll;
         width: 100vw;
-        outline: 1px solid;
+        border: 1px solid;
         -ms-overflow-style: none;
         /* IE and Edge */
         scrollbar-width: none;
@@ -74,8 +74,8 @@
 
     .ill-mob {
         display: inline-flex;
-        width: 170px;
-        height: auto;
+        width: auto;
+        height: 170px;
         outline: 1px solid;
         -ms-overflow-style: none;
         /* IE and Edge */
@@ -91,5 +91,8 @@
         display: none;
     }
 
+    .lun{
+        left: -1px;
+    }
 
 }
