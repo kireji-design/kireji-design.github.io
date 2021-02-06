@@ -5,7 +5,7 @@
 }
 
 .testo {
-    margin: 101px 64px 0px 32px;
+    margin: 101px 0px 0px 32px;
     padding-bottom: 48px;
     left: 0;
     position: relative;
@@ -31,7 +31,7 @@
 .illustrazione {
     position: fixed;
     height: 100vh;
-    padding-top: 0px;
+    padding-top: 69px;
     padding-right: 0;
     right: 0;
     border: 1px solid;
@@ -86,7 +86,6 @@
         position: relative;
         width: 100vw;
         height: auto;
-        margin-top: 69px;
     }
 
     .placeholder {

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="it" overflow="hidden">
+<html lang="it" overflow="hidden" class="no-js">
 
 <head>
 
@@ -16,6 +16,8 @@
         gtag('config', 'UA-178754398-1');
 
     </script>
+    
+    <script>document.documentElement.className = document.documentElement.className.replace('no-js','js');</script>
 
     <!-- Meta tags -->
     <meta charset="utf-8">
@@ -62,7 +64,7 @@
     <link href="https://fonts.googleapis.com/css?family=Karla:100,400,400i,700,700i" rel="stylesheet">
 </head>
 
-<body data-barba="wrapper">
+<body>
 
 
     <!-- Loader -->
@@ -100,7 +102,7 @@
                 <div class="bar2"></div>
             </div>
         </li>
-        <div class="menu-aperto justify-content-between">
+        <div class="menu-aperto justify-content-between content">
             <div class="col0">
                 <div class="col1">
                     <div class="menu-list">
@@ -136,9 +138,8 @@
         </div>
     </ul>
 
-<main data-barba="container" data-barba-namespace="home">
     <!-- Home -->
-    <div class="container-fluid no-gutters">
+    <div class="container-fluid no-gutters content">
         <div class="row no-gutters block">
 
 
@@ -289,7 +290,6 @@
             </div>
         </div>
     </div>
-    </main>
 
     <!-- Optional JavaScript -->
     <script type="text/javascript" src="./js/main.js"></script>
@@ -302,6 +302,10 @@
     <script src="https://unpkg.com/@barba/core"></script>
     <!-- jsdelivr -->
     <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    
+    <script>
+        $('.content').fadeIn(1000);
+    </script>
 </body>
 
 </html>
