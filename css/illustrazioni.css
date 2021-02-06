@@ -70,6 +70,7 @@
     padding-top: 12px;
 }
 
+
 /*MOBILE*/
 
 @media (max-width: 900px) {
@@ -88,10 +89,6 @@
         height: auto;
     }
 
-    .placeholder {
-        display: none;
-    }
-
     .testo {
         margin: 32px 32px 0px 32px;
         width: auto;
@@ -100,7 +97,6 @@
     }
 
     .illustrazione-container {
-
         position: relative;
     }
 
