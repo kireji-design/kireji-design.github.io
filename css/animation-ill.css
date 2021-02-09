@@ -26,10 +26,10 @@
 @-webkit-keyframes reveal {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(50%);
-       -moz-transform: translateY(50%);
-         -o-transform: translateY(50%);
-            transform: translateY(50%);
+    -webkit-transform: translateY(15%);
+       -moz-transform: translateY(15%);
+         -o-transform: translateY(15%);
+            transform: translateY(15%);
   }
   100% {
     opacity: 1;
@@ -43,10 +43,10 @@
 @-moz-keyframes reveal {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(50%);
-       -moz-transform: translateY(50%);
-         -o-transform: translateY(50%);
-            transform: translateY(50%);
+    -webkit-transform: translateY(15%);
+       -moz-transform: translateY(15%);
+         -o-transform: translateY(15%);
+            transform: translateY(15%);
   }
   100% {
     opacity: 1;
@@ -60,10 +60,10 @@
 @-o-keyframes reveal {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(50%);
-       -moz-transform: translateY(50%);
-         -o-transform: translateY(50%);
-            transform: translateY(50%);
+    -webkit-transform: translateY(15%);
+       -moz-transform: translateY(15%);
+         -o-transform: translateY(15%);
+            transform: translateY(15%);
   }
   100% {
     opacity: 1;
@@ -77,10 +77,10 @@
 @keyframes reveal {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(50%);
-       -moz-transform: translateY(50%);
-         -o-transform: translateY(50%);
-            transform: translateY(50%);
+    -webkit-transform: translateY(15%);
+       -moz-transform: translateY(15%);
+         -o-transform: translateY(15%);
+            transform: translateY(15%);
   }
   100% {
     opacity: 1;
