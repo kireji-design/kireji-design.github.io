@@ -62,7 +62,7 @@
 </head>
 
 <body>
-
+    <div data-barba="wrapper">
         <!-- Navbar -->
         <ul class="nav justify-content-between fixed-top">
 
@@ -116,7 +116,7 @@
             </div>
         </ul>
 
-
+<div data-barba="container">
             <!-- Home -->
             <div class="no-gutters justify-content-between">
                 <div class="row no-gutters justify-content-between">
@@ -153,6 +153,21 @@
 
                 </div>
             </div>
+        </div>
+    </div>
+    
+        <!-- load barba -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://unpkg.com/@barba/css"></script>
+
+    <script>
+        // tell Barba to use the css plugin
+        barba.use(barbaCss);
+
+        // init Barba
+        barba.init();
+
+    </script>
 
     <!-- Optional JavaScript -->
     <script type="text/javascript" src="./js/main.js"></script>
