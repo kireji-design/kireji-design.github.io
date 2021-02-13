@@ -1,6 +1,6 @@
 .animate{
   display: block;
-  animation: reveal 1.2s ease-out;
+  animation: reveal 1s ease-out;
 }
 
 @keyframes reveal {
