@@ -1,0 +1,13 @@
+.animate{
+  display: block;
+  animation: reveal 1.2s ease-out;
+}
+
+@keyframes reveal {
+  0% {
+    transform: translate(10px,0);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
