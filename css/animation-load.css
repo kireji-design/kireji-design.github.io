@@ -1,11 +1,11 @@
-.animate{
-  display: block;
+.animate-load{
   animation: reveal 1s ease-out;
+    animation-delay: 1000ms;
 }
 
 @keyframes reveal {
   0% {
-    transform: translate(10px,0);
+    transform: translate(0, 15px);
   }
   100% {
     transform: translate(0,0);
