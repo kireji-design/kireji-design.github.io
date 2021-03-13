@@ -25,7 +25,6 @@
     right: 0;
     border: 1px solid;
     opacity: 0;
-
 }
 
 .illustrazione {
@@ -51,57 +50,54 @@
     text-align: center;
 }
 
-
 .freccie {
     margin-bottom: 8px;
     padding-top: 12px;
 }
 
+
 /*MOBILE*/
 
-@media (max-width: 900px) {
+@media (max-width: 1600px) {
+    .testo {
+        margin: 101px 0px 0px 32px;
+    }
+}
+
+@media (max-width: 1300px) {
     .row {
         display: flex;
         flex-direction: column-reverse;
     }
-
     .container-fluid {
         display: block;
     }
-
     .illustrazione {
         position: relative;
         width: 102vw;
         margin-left: -5px;
         height: auto;
     }
-
     .placeholder {
         display: none;
     }
-
     .testo {
         margin: 32px 32px 0px 32px;
         width: auto;
         left: 0;
         position: relative;
     }
-
     .illustrazione-container {
-
         position: relative;
     }
-
     .freccia-dx {
         position: absolute;
         right: 0;
     }
-
     .freccia-sx {
         position: absolute;
         left: 0;
     }
-
     .gallery {
         position: relative;
         width: 30px;
@@ -109,10 +105,8 @@
         margin: 0 auto;
         top: -12px;
     }
-
     .freccie {
         margin-bottom: 32px;
         padding-top: 0px;
     }
-
 }

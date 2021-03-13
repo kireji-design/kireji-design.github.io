@@ -1,5 +1,6 @@
 .mail-form {
     display: inline-flex;
+    width: 100%;
 }
 
 .mc-field-group {
@@ -59,22 +60,18 @@ input {
 }
 
 
-
 /*MOBILE*/
-@media (max-width: 1200px) {
-    
+
+@media (max-width: 1600px) {
     .mail-form {
         display: block;
     }
 }
 
-
 @media (max-width: 900px) {
-    
     .mail-form {
         display: block;
     }
-
     .mc-field-group {
         margin-right: 0;
     }
