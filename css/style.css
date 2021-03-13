@@ -1,7 +1,14 @@
+@media print {
+    html,
+    body {
+        display: none;
+        /* hide whole page */
+    }
+}
+
 .js .content {
     display: none;
 }
-
 
 h1 {
     font-family: 'Noe-Display';
@@ -61,7 +68,6 @@ body.dark-theme {
 }
 
 @media (prefers-color-scheme: dark) {
-
     /* defaults to dark theme */
     body {
         --text-color: #EAF8BF;
@@ -69,7 +75,6 @@ body.dark-theme {
         --bkg-color-opacity-0: rgba(234, 248, 191, 0);
         --bkg-color-opacity-2: rgba(234, 248, 191, 0.2);
     }
-
     body.light-theme {
         --text-color: #FB8F67;
         --bkg-color: #FFFFE9;
@@ -101,7 +106,6 @@ input,
     color: var(--text-color);
 }
 
-
 body {
     width: auto;
     overflow-x: hidden;
@@ -110,7 +114,6 @@ body {
 a,
 a:hover {
     text-decoration: none;
-
 }
 
 .nav {
@@ -139,26 +142,23 @@ input {
     background-color: var(--bkg-color-opacity-2);
 }
 
+
 /*MOBILE*/
 
 @media (max-width: 900px) {
-
     .bottone,
     input {
         display: auto;
         width: 100%;
     }
-
     .click {
         position: absolute;
         left: 32px;
     }
-
     .kj {
         width: 30px;
         margin: 0 auto;
     }
-
     .menu {
         position: absolute;
         right: 32px;
@@ -166,41 +166,34 @@ input {
 }
 
 @media (min-width: 1300px) {
-
     h1 {
         font-family: 'Noe-Display';
         font-size: 60px;
         margin-bottom: 0;
     }
-
     h2 {
         font-family: 'Noe-Display';
         font-size: 36px;
         margin-bottom: 0;
     }
-
     h3 {
         font-family: 'Karla', sans-serif;
         font-size: 48px;
         margin-bottom: 0;
     }
-
     h4 {
         font-family: 'Karla', sans-serif;
         font-size: 30px;
         margin-bottom: 0;
     }
-
     h5 {
         font-family: 'Karla', sans-serif;
         font-size: 20px;
         margin-bottom: 0;
     }
-
     h6 {
         font-family: 'Karla', sans-serif;
         font-size: 16px;
         margin-bottom: 0;
     }
-
 }
